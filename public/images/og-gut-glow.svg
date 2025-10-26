@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FAF9F6" />
+  <circle cx="380" cy="260" r="180" fill="#8BA888" fill-opacity="0.35" />
+  <circle cx="760" cy="360" r="220" fill="#F4B185" fill-opacity="0.35" />
+  <circle cx="520" cy="420" r="190" fill="#2C5F5D" fill-opacity="0.25" />
+  <text x="600" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="64" fill="#2C5F5D" font-weight="600">Gut Glow</text>
+  <text x="600" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" fill="#2C5F5D">
+    Science-backed support for brighter digestion
+  </text>
+</svg>

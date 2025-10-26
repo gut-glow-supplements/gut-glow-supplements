@@ -1,0 +1,9 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" rx="120" fill="#FAF9F6" />
+  <circle cx="400" cy="300" r="180" fill="#8BA888" fill-opacity="0.35" />
+  <circle cx="520" cy="420" r="130" fill="#F4B185" fill-opacity="0.45" />
+  <circle cx="300" cy="480" r="150" fill="#2C5F5D" fill-opacity="0.3" />
+  <path d="M330 530C330 444 390 360 470 350C530 342 578 376 600 420C625 470 610 534 560 580C512 624 440 640 380 610C350 594 330 564 330 530Z" fill="#FFFFFF" fill-opacity="0.85" />
+  <path d="M242 360C242 280 298 220 362 220C420 220 470 270 470 330C470 398 410 470 330 470C280 470 242 430 242 360Z" fill="#FFFFFF" fill-opacity="0.95" />
+  <text x="400" y="690" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" fill="#2C5F5D">Gut Glow</text>
+</svg>
