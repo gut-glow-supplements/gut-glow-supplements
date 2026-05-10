@@ -1,16 +1,17 @@
-## Hi there 👋
+# Gut Glow Supplements
 
-<!--
-**gut-glow-supplements/gut-glow-supplements** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A simple starter marketing website for a gut health supplement brand.
 
-Here are some ideas to get you started:
+## What's included
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Responsive landing page (`index.html`)
+- Custom styling (`styles.css`)
+- Small interactive behavior for newsletter signup (`script.js`)
+
+## Run locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit <http://localhost:8000>.
