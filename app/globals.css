@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: theme("fontFamily.body");
+  background-color: theme("colors.cream");
+  color: theme("colors.charcoal");
+}
+
+@layer base {
+  a {
+    @apply text-teal transition-colors duration-200 hover:text-sage;
+  }
+
+  body {
+    @apply bg-cream text-charcoal antialiased;
+  }
+}
+
+main {
+  @apply flex-1;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-full bg-teal px-6 py-3 text-sm font-semibold text-white shadow-soft transition-transform duration-200 hover:-translate-y-0.5 hover:bg-sage focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-peach focus-visible:ring-offset-2;
+}
+
+.section-heading {
+  @apply text-3xl font-heading font-semibold tracking-tight text-teal sm:text-4xl;
+}
+
+.section-subheading {
+  @apply mt-2 text-base text-charcoal/70;
+}
