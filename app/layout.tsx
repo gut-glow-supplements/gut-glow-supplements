@@ -1,8 +1,30 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Inter, Merriweather, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+
+const headingFont = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-heading",
+  weight: ["400", "500", "600", "700"]
+});
+
+const bodyFont = Source_Sans_3({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+  weight: ["400", "500", "600", "700"]
+});
+
+const accentFont = Merriweather({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-accent",
+  weight: ["300", "400", "700"]
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.gutglow.com"),
@@ -41,11 +63,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${bodyFont.variable} ${headingFont.variable} ${accentFont.variable}`}
+    >
       <body className="min-h-screen bg-cream text-charcoal">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-teal focus:shadow-soft"
+        >
+          Skip to main content
+        </a>
         <div className="flex min-h-screen flex-col">
           <Header />
-          <main>{children}</main>
+          <main id="main-content" className="flex-1">
+            {children}
+          </main>
           <Footer />
         </div>
       </body>

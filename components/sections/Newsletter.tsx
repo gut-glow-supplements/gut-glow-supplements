@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/layout/Container";
 
@@ -30,9 +31,9 @@ export function Newsletter() {
             </Button>
             <p className="text-xs text-charcoal/60">
               By subscribing, you agree to our
-              <a className="ml-1 text-teal underline" href="/legal/privacy">
+              <Link className="ml-1 text-teal underline" href="/legal/privacy">
                 privacy policy
-              </a>
+              </Link>
               .
             </p>
           </form>

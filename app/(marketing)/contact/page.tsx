@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/Button";
 
@@ -45,7 +46,11 @@ export default function ContactPage() {
         </label>
         <Button type="submit">Send message</Button>
         <p className="text-xs text-charcoal/60">
-          Gut Glow respects your privacy. Read our <a href="/legal/privacy" className="text-teal underline">privacy policy</a> to understand how we handle your data.
+          Gut Glow respects your privacy. Read our
+          <Link href="/legal/privacy" className="ml-1 text-teal underline">
+            privacy policy
+          </Link>
+          to understand how we handle your data.
         </p>
       </form>
     </Container>

@@ -18,9 +18,9 @@ const config: Config = {
         cream: "#FAF9F6"
       },
       fontFamily: {
-        heading: ["Inter", "sans-serif"],
-        body: ["'Source Sans Pro'", "sans-serif"],
-        accent: ["Merriweather", "serif"]
+        heading: ["var(--font-heading)", "Inter", "sans-serif"],
+        body: ["var(--font-body)", "'Source Sans Pro'", "sans-serif"],
+        accent: ["var(--font-accent)", "Merriweather", "serif"]
       },
       boxShadow: {
         soft: "0 10px 40px rgba(44, 95, 93, 0.12)"
